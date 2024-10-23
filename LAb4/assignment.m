@@ -26,12 +26,5 @@ Loss_in_db2=[0 0.284885 0.621479 0.8167 1.038588];
 x=linspace(0,0.005,20);
 Tequ=End_Separation(x,NA);
 draw2together(d2,Loss_in_db2,x,Tequ,"d","loss misalignment in dB"," end separation","the parctical in straight  blue","The therotical in dashed red")
-%figure;
-%plot(d2,Loss_in_db2,'b','LineWidth', 2);
-%hold on;
-%plot(x, Tequ, 'k', 'LineWidth', 2);
-%grid on
-%xlabel('measured distance  x/a','FontWeight', 'bold');
-%ylabel('end separation loss in dB','FontWeight', 'bold');
-%title('End Separation');
 
+%%
